@@ -119,7 +119,7 @@ jQuery(document).ready(function ($) {
                     required: true
                 }
             },
-            submitHandler: function (form) {
+            /*submitHandler: function (form) {
                 // Sending values with ajax request
                 $.post($(form).attr('action'), $(form).serialize(), function (response) {
                     $(form).parent('div').append(response);
@@ -129,7 +129,7 @@ jQuery(document).ready(function ($) {
                     $(form).find('textarea').val('');
                 });
                 return false;
-            }
+            }*/
         });
     }
 
